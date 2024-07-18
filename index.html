@@ -1,88 +1,103 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Esercizio giorno 4</title>
     <link rel="stylesheet" href="scss/bootstrap.css">
 </head>
+
 <body>
     <header>
-          <div class="card">
-            <div class="card-header d-flex align-items-center">
-               
+        <div class="card">
+            <div class="card-header d-flex align-items-center justify-content-between">
+
                 <div><a class="navbar-brand" href="#"><img src="assets/logo.svg" alt=""></a></div>
-                
-              <ul class="nav nav-pills card-header-pills">
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Browser
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Landings
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Pages
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Accounts
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>
-              </ul>
-              <div class="d-flex justify-content-end align-items-center">
-                <div style="width: 11%; height: 11%" class="bg-secondary opacity-75 m-1 p-1 rounded-circle">
-                    <img src="assets/notifications_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg" alt="">
+
+                <ul class="nav nav-pills card-header-pills flex-grow-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Browser
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Landings
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Accounts
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="d-flex justify-content-end align-items-center">
+                    <div style="width: 10%; height: 10%" class="bg-secondary opacity-75 m-1 p-1 rounded-circle d-flex justify-content-center align-items-center position-relative">
+                        <img  src="assets/notifications_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg" alt="">
+                    </div>
+                    <img style="width: 10%; height: 10% " class=" rounded-circle" src="assets/avatar-1.jpg" alt="">
                 </div>
-                    <img style="width: 11%; height: 11% " class=" rounded-circle" src="assets/avatar-1.jpg" alt=""> 
-                </div>
-              </div>
-              
+            </div>
+
             <div class="card-body px-5 d-flex align-items-center bg-info">
                 <div>
                     <h1 class="card-title fs-1 text-light">Welcome Web Students</h1>
-              <p class="card-text text-secondary fs-5">Hand-picked Instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
-              <a href="#" class="btn btn-light">Go somewhere</a>
+                    <p class="card-text text-secondary fs-5">Hand-picked Instructor and expertly crafted courses,
+                        designed for the modern students and entrepreneur.</p>
+                    <a href="#" class="btn btn-primary m-1">Browse courses</a>
+                    <a href="#" class="btn btn-light m-1 ">Are you a teacher?</a>
                 </div>
                 <img src="assets/hero-img.png" alt="">
-              
+
             </div>
-          </div>
-          <div class="container">
+        </div>
+        <div class="container bg-tertiary my-2">
             <div class="row">
                 <div class="col-4">
-                    <div>
-                        <img src="" alt="">
+                    <div class="d-flex justify-content-evenly align-items-center">
+                        <img src="assets/videocam_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg" alt="">
                         <div>
                             <p>30,000 online courses</p>
                             <p>Enjoy a variety of fresh topics</p>
@@ -90,8 +105,8 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div>
-                        <img src="" alt="">
+                    <div class="d-flex justify-content-evenly">
+                        <img src="assets/videocam_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg" alt="">
                         <div>
                             <p>30,000 online courses</p>
                             <p>Enjoy a variety of fresh topics</p>
@@ -99,8 +114,8 @@
                     </div>
                 </div>
                 <div class="col-4">
-                    <div>
-                        <img src="" alt="">
+                    <div class="d-flex justify-content-evenly">
+                        <img src="assets/videocam_16dp_5F6368_FILL0_wght400_GRAD0_opsz20.svg" alt="">
                         <div>
                             <p>30,000 online courses</p>
                             <p>Enjoy a variety of fresh topics</p>
@@ -108,10 +123,47 @@
                     </div>
                 </div>
             </div>
-          </div>
+        </div>
     </header>
-    <main>
-
+    <main class="pt-3 border border-1">
+<h5 class="px-5 mx-4">Recommended to you</h5>
+<div class="container">
+    <div class="row">
+        <div class="col-3"><div class="card" ">
+            <img src="assets/course-graphql.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></div>
+        <div class="col-3"><div class="card" >
+            <img src="assets/course-javascript.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></div>
+        <div class="col-3"><div class="card" >
+            <img src="assets/course-node.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></div>
+        <div class="col-3"><div class="card" >
+            <img src="assets/course-laravel.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div></div>
+    </div>
+</div>
     </main>
 </body>
+
 </html>
